@@ -13,7 +13,7 @@ body{
 
 .hero{
     height: 100vh;
-    background: url(../assets/img/hero4.jpg) no-repeat fixed;
+    background: url(../assets/img/hero5.jpg) no-repeat fixed;
     background-size: cover;
 }
 
@@ -60,9 +60,18 @@ body{
     transition: all 0.3s ease-in-out;
 }
 
+.navbar-brand{
+    line-height: 60px;
+    height: 64px;
+    padding-top: 6px;
+}
+
 .nav.navbar-nav.navbar-right li a{
     color: #ffffff;
     font-weight: 400;
+    line-height: 80px;
+    height: 64px;
+    padding-top: 0;
 }
 
 .nav.navbar-nav.navbar-right li a:hover {
@@ -74,7 +83,7 @@ body{
 /* -----------------------------------*/
 
 .section-content{
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 /* -----------------------------------*/
@@ -102,4 +111,29 @@ body{
     font-size: 42px;
     margin-bottom: 2em;
     transition: all 0.3s ease-in-out;
+}
+
+/* -----------------------------------*/
+/* ----------->>> Team <<<------------*/
+/* -----------------------------------*/
+
+.team-box{
+    text-align: center;
+}
+
+.profile-pic{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+
+/* -----------------------------------*/
+/* ---------->>> counter <<<----------*/
+/* -----------------------------------*/
+
+#counter{
+    background: url(../assets/img/hero.jpg) no-repeat fixed;
+    height: 200px;
+    background-size: cover;
 }
