@@ -151,3 +151,31 @@
 </footer>
 </body>
 </html>
+
+<script type="text/javascript">
+
+    $(document).ready(function(){
+
+        $('.contact-send').click(function(){
+
+            var naam, email, onderwerp, bericht;
+
+            naam = $('#naam').val();
+            email = $('#email').val();
+            onderwerp = $('#onderwerp').val();
+            bericht = $('#bericht').val();
+
+            $.ajax({
+                'type': "POST",
+                'url': "mail.php",
+                'data': {'name' : naam, 'email' : email, 'subject' : onderwerp, 'message' : bericht},
+                'success': function (response) {
+                    console.log(response);
+                }
+            });
+
+        });
+
+    });
+
+</script>

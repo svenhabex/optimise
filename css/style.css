@@ -305,3 +305,27 @@ body{
     letter-spacing: 3px;
     border-radius: 3px;
 }
+
+
+/* -----------------------------------*/
+/* ------->>> Media queries <<<-------*/
+/* -----------------------------------*/
+@media (max-width: 991px){
+    #counter{
+        height: 300px;
+    }
+
+    .counter-box{
+        margin-bottom: 1.5em;
+    }
+}
+
+@media (max-width: 767px){
+    #counter{
+        height: 580px;
+    }
+
+    .counter-box{
+        margin-bottom: 2em;
+    }
+}
